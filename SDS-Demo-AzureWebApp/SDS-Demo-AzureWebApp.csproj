@@ -3,6 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>SDS_Demo_AzureWebApp</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a83c833d-7492-46ac-b3cb-d787ea08851a/resourceGroups/SDS/providers/microsoft.insights/components/sds-demo-gwl</ApplicationInsightsResourceId>
+    <UserSecretsId>edb8c9a3-8704-4672-afb6-ff3bef49cb81</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.1" />
+  </ItemGroup>
 
 </Project>
